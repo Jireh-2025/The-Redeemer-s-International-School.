@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses We Offer - The Redeemer's International School</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>COURSE</h1>
+    </section>
+
+   
+    <!-- Courses for Secondary School -->
+    <section class="course">
+      <h1>Courses We Offer for Secondary School</h1>
+      <p>We provide a wide range of subjects to prepare students for excellence in academics and life skills.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Science</h3>
+          <p>Physics, Chemistry, Biology, and Mathematics to build strong analytical and problem-solving skills.</p>
+        </div>
+        <div class="course-col">
+          <h3>Arts</h3>
+          <p>Literature, History, and Creative Arts to nurture imagination and cultural understanding.</p>
+        </div>
+        <div class="course-col">
+          <h3>Commercial</h3>
+          <p>Business Studies, Economics, and Accounting to prepare students for the corporate and entrepreneurial world.</p>
+        </div>
+      </div>
+    </section>
+
+     <!-- FACILITIES -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        We offer a modern and supportive learning environment with well-equipped
+        classrooms, computer labs, a digital library, science laboratories,
+        sports grounds, and Wi-Fi access. Our campus ensures comfort, safety,
+        and resources to help every student succeed.
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/lab2.jfif" alt="Library" />
+          <h3>World Class Library</h3>
+          <p>
+            Our world-class library offers a quiet, resource-rich environment
+            for study and research. Equipped with thousands of books, journals,
+            e-resources, and modern facilities, it supports students and staff
+            with everything needed for academic excellence.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="Basketball Court" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            The largest playground in our school provides ample space for
+            students to engage in various outdoor activities and sports. It is
+            well-maintained, spacious, and designed to support football,
+            athletics, and other physical training. This open environment
+            encourages teamwork, fitness, and fun among students.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/food.jpg" alt="Food"/>
+          <h3>Tasty And Healthy Food</h3>
+          <p>
+            Tasty and healthy food combines delicious flavors with essential
+            nutrients. It includes fresh fruits, vegetables, whole grains, lean
+            proteins, and healthy fats. Eating well doesn’t mean giving up on
+            taste — with the right ingredients and cooking methods, food can be
+            both enjoyable and good for your body.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We are a dedicated learning center focused on quality education,
+        skill-building, and student growth in a supportive environment.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made by <i class="fa fa-heart-o"></i>  JDollar</p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

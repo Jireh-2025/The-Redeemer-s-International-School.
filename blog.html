@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - The Redeemer's International School</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our School Awards and Online Classes For 2025</h1>
+    </section>
+
+    <!-- blog page content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="Certificate">
+          <h2>Our Certificate & Online Programs For 2025</h2>
+          <p>
+            Our 2025 certificate and online programs are carefully designed to equip learners with practical, in-demand skills that meet today’s industry needs. Each program combines expert-led instruction with engaging content, ensuring you gain both the knowledge and confidence to excel in your chosen field. Whether you are just starting out or seeking to advance your career, our courses offer a clear path toward personal and professional growth.
+          </p>
+          <br>
+          <p>Flexibility is at the heart of our learning approach. With online access to lectures, resources, and interactive sessions, you can study at your own pace, from anywhere in the world. This makes it easier to balance your education with work, family, and other commitments while still enjoying a high-quality learning experience that fits into your lifestyle.</p>
+          <br>
+          <p>Upon completion, you will receive a recognized certificate that showcases your achievement and skill mastery. This credential can open doors to new opportunities, enhance your resume, and help you stand out in a competitive job market. With our 2025 programs, you are not just learning—you are investing in a brighter future.</p>
+          <br>
+          <p>We are committed to providing an inclusive and supportive learning environment where every student feels empowered to succeed. Our dedicated instructors, responsive support team, and active learning community ensure that you are never alone in your journey. Together, we help you turn your ambitions into accomplishments.</p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form" action="mailto:batos350@gmail.com">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2>Blog Categories</h2>
+      <div class="category-list">
+        <div class="category-card">
+          <a href="https://www.mercedes-amg.com/">
+            <i class="fa fa-trophy"></i>
+            <span>Brainwave</span>
+          </a>
+        </div>  
+        <div class="category-card">
+          <a href="https://www.laliga.com/en-GB">
+            <i class="fa fa-futbol-o"></i>
+            <span>Goalpost</span>
+          </a>
+        </div> 
+        <div class="category-card">
+          <a href="https://www.canva.com/">
+            <i class="fa fa-paint-brush"></i>
+            <span>Canvas</span>
+          </a>
+        </div>
+        <div class="category-card">
+          <a href="https://www.raphealdavisbasketball.com/event-details/crew-life-back-to-school-drive">
+            <i class="fa fa-users"></i>
+            <span>Crewlife</span>
+          </a>
+        </div>
+        <div class="category-card">
+          <a href="https://spotlightenglish.com/">
+            <i class="fa fa-star"></i>
+            <span>Spotlight</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+  We are a dedicated learning center focused on quality education, skill-building, and student growth in a supportive environment.
+</p>
+
+<div class="icons">
+  <a href="https://www.facebook.com/p/The-Redeemers-International-School-Kano-100064653027260/">
+    <i class="fa fa-facebook"></i>
+  </a>
+</div>
+
+<div class="icons">
+  <a href="https://www.twitter.com/asekome.victor.9/">
+    <i class="fa fa-twitter"></i>
+  </a>
+</div>
+
+<div class="icons">
+  <a href="https://www.instagram.com/asekome.victor.9/">
+    <i class="fa fa-instagram"></i>
+  </a>
+</div>
+
+<div class="icons">
+  <a href="https://ng.linkedin.com/in/victor-asekome-2808a8149">
+    <i class="fa fa-linkedin"></i>
+  </a>
+</div>
+
+<p>Made by <i class="fa fa-heart-o"></i>  JDollar</p>
+</section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
